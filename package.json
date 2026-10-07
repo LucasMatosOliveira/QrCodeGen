@@ -1,0 +1,30 @@
+{
+  "name": "qr-cli",
+  "version": "1.0.0",
+  "description": "Gerador de QR Code via CLI para terminal e arquivos (PNG, SVG, TXT)",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "qr": "./bin/qr.js",
+    "qrcode-cli": "./bin/qr.js"
+  },
+  "scripts": {
+    "start": "node bin/qr.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "qrcode",
+    "cli",
+    "generator",
+    "terminal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^1.8.1",
+    "picocolors": "^1.1.1",
+    "pngjs": "^5.0.0",
+    "qrcode": "^1.5.4",
+    "string-width": "^8.3.0"
+  }
+}
