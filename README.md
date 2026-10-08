@@ -3,6 +3,40 @@
 Sistema CLI completo para geração e estilização de QR Codes com **interface de abas internas (TUI)**, **preview em tempo real no terminal** e suporte a exportação em alta qualidade (**PNG**, **SVG**, **TXT**).
 
 ---
+## 🚀 Instalação
+
+### Opção 1: Binário Standalone (Recomendado — Sem Node.js)
+
+Baixe e instale automaticamente no macOS ou Linux com apenas um comando no terminal:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/LucasMatosOliveira/QrCodeGen/main/install.sh | sh
+```
+
+Ou baixe o executável pronto para o seu sistema direto na página de [**GitHub Releases**](https://github.com/LucasMatosOliveira/QrCodeGen/releases):
+
+* **macOS Apple Silicon (M1/M2/M3/M4):** `qr-darwin-arm64`
+* **macOS Intel:** `qr-darwin-x64`
+* **Linux x64:** `qr-linux-x64`
+* **Linux ARM64:** `qr-linux-arm64`
+* **Windows x64:** `qr-windows-x64.exe`
+
+---
+
+### Opção 2: Via Git / Node.js
+
+Se você já possui o Node.js instalado:
+
+```bash
+# Instalação global permanente:
+npm install -g github:LucasMatosOliveira/QrCodeGen
+
+# Ou testar na hora sem instalar nada:
+npx github:LucasMatosOliveira/QrCodeGen
+```
+
+---
+
 
 ## 🖥️ Interface com Divisão de Abas (Studio TUI)
 
